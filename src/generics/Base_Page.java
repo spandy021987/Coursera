@@ -51,6 +51,7 @@ public abstract class Base_Page {
 		{
 			Reporter.log("Element is not matching",true);
 			Assert.fail();
+			System.out.prtintln("Hello World!");
 	
 		}
 		
